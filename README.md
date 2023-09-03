@@ -1,5 +1,30 @@
 # Arola-Tech
 
+## Folder structure
+
+1. All **.html** files are in the root directory - this is level 1 (01).
+
+2. All utilities files, such as .css, .js and images(.png,.jpeg,.jpg,.gif, etc)
+    are for level 1 .html files and are in **01-pages-util-folders**, which has a subfolder
+    for each page containing those utility files. *These files contain specific* 
+    *information for each page on the website*.
+
+3. Each of the page utility subfolder contains four subfolders, local-css, images,
+    data and local-js. 
+    
+    The **local-css** folder contains any cascading style sheet that is specific only to this page (as opposed to style sheets that are common across all pages), generally there are not many of these, usually only where a page runs a particular script that has an associated CSS file. If the page has no local CSS files, the folder will still exist, but will be empty.
+
+    The **images** subfolder contains all the images (with the exception of certain background images that are used by the common CSS files) that are used on the page. Generally, the images on a page are unique to that page. If the page has no images, the folder will still exist, but will be empty.
+
+    The **data** subfolder is used to hold data files containing page specific information (software examples, downloads, and any other information specific to the particular web page that doesn’t fall into the other categories).
+
+    The **local-js** subfolder: Every page has its own jQuery script file, this controls the slow scrolling to the various points on the page (figures, tables, sections &c.). These files are all unique; all are dependent on the configuration of the page.
+
+4. The **resources folder** on level 1 holds all the common files that we developed for the website i.e. it is the stuff that we’ve written specifically for the site. The **global folder** contains common files for the website but *we did not create its content*. This is content we got from other people such as fonts, jQuery plugins and certain CSS files; but all were used under licence on the website. *Both these contain the same four subfolders as* *those in the pages utility subfolders, that is, local-css, images, data and local-js*. 
+
+
+
+
 ## Project overview
 
 ### Project Highlights
