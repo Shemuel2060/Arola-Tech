@@ -12,7 +12,7 @@
 3. Each of the page utility subfolder contains four subfolders, local-css, images,
     data and local-js. 
     
-    The **local-css** folder contains any cascading style sheet that is specific only to this page (as opposed to style sheets that are common across all pages), generally there are not many of these, usually only where a page runs a particular script that has an associated CSS file. If the page has no local CSS files, the folder will still exist, but will be empty.
+    The **local-css** folder contains any cascading style sheet that is **specific** only to this page (as opposed to style sheets that are common across all pages), generally there are not many of these, usually only where a page runs a particular script that has an associated CSS file. If the page has no local CSS files, the folder will still exist, but will be empty.
 
     The **images** subfolder contains all the images (with the exception of certain background images that are used by the common CSS files) that are used on the page. Generally, the images on a page are unique to that page. If the page has no images, the folder will still exist, but will be empty.
 
