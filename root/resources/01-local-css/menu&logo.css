@@ -1,3 +1,20 @@
+
+/*This menu.css will be on every page since it will
+have to exist on all pages...*/
+
+body{
+  background-color:#000000; /*#262A56, #B8621B, #E3CCAE*/
+  margin:0;
+}/*to be include in every local-css file*/
+
+.logo-container{
+  margin-left:100px;
+  margin-top:50px;
+  
+}
+.menu-container{
+  margin-left: 1250px; 
+}
 .three-lines-menu-icon-not-same-length{
   display:grid;
   width:50px;
