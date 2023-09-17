@@ -1,4 +1,15 @@
 .welcome-text-with-changing-span-text-imagecarousel{
-    margin-top:90px;
-    margin-left:160px;
+    margin-top:50px;
+    margin-left:100px;
+    margin-right:100px;
+}
+.welcome-text{
+    color:white;
+}
+.welcome-text-with-changing-span-text-imagecarousel img{
+    margin-top: 30px;
+    width:860px;
+    height:400px;
+    /* border-radius: 0.5rem;
+    border-color: white; */
 }

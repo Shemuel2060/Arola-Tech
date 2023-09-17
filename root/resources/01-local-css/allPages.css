@@ -1,3 +1,4 @@
+/*Logo and menu*/
 
 /*This menu.css will be on every page since it will
 have to exist on all pages...*/
@@ -48,4 +49,34 @@ body{
 .line-3{
   width: 50px;
   justify-self:end;
+}
+
+
+
+
+/*Get in touch button */
+.get-in-touchbtn-persistent-on-all-pages{
+   
+    margin-left:930px;
+    margin-bottom:80px;
+}
+#btn-getintouch{
+    background-color: blue;
+    border-radius: 30px;
+    border-color: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position:sticky;
+
+}
+#btn-getintouch:hover{
+     background-color: red;
+  border-radius: 200px;
+  border-color: red;
+  cursor: pointer;
+  
 }
