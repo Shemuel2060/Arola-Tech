@@ -8,6 +8,10 @@ body{
   margin:0;
   padding:0px 100px 0px 100px;
 }/*to be include in every local-css file*/
+section{
+  height:1080px;
+  
+}
 
 .logo-menu-div{
   display:flex;

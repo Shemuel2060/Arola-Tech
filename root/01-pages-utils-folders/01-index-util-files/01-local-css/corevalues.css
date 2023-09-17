@@ -1,0 +1,24 @@
+.core-values{
+    writing-mode:vertical-lr;
+    color:blue;
+    /* text-orientation:upright; */
+
+}
+
+
+.core-values-text-logo-menu-icon-getintouchbtn hr{
+    transform: rotate(90deg);
+    width: 800px;
+}
+#first-hr{
+    margin-right:1299px;
+    border-color: pink;
+}
+#second-hr{
+    margin-right: 866px;  
+    border-color:greenyellow  
+}
+#third-hr{
+    margin-right:433px;   
+    border-color:red; 
+}
