@@ -1,24 +1,32 @@
-.core-values{
-    writing-mode:vertical-lr;
-    color:blue;
-    /* text-orientation:upright; */
 
+.core-values-heading{
+    color:white;
+    font-size: 80px;
 }
-
 
 .core-values-text-logo-menu-icon-getintouchbtn hr{
-    transform: rotate(90deg);
-    width: 800px;
+    
+   
 }
-#first-hr{
-    margin-right:1299px;
-    border-color: pink;
+
+.core-values-divs{
+    /* display:inline-block; */
+    display:flex;
+    height:300px;
+    width:400px;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 20px;   
+    /* margin-right:400px;   */
 }
-#second-hr{
-    margin-right: 866px;  
-    border-color:greenyellow  
+#integrity-core{
+    margin-bottom:-298px;
 }
-#third-hr{
-    margin-right:433px;   
-    border-color:red; 
+#collaborate-core{
+    margin-left:459px;
+    margin-bottom:-298px;
+    margin-left:450px;
+}
+#creativity-core{
+    margin-left:900px;
+
 }
