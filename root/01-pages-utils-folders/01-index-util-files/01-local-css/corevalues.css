@@ -12,32 +12,37 @@
 
 .core-values-divs{
     display:inline-block;
-
     height:300px;
-    width:400px;
+    width:350px;
     /* background-color: rgba(255, 255, 255, 0.925); */
-    border-radius: 20px;   
+    border-radius: 10px;   
     border:1px solid;
     border-color:red;
     margin-right:20px;  
 }
+.index_core-values_captions-item{
+    padding:40%;
+    margin-block-start:0;
+    margin-block-end:0; /* counter user-agent defaults*/
+}
 .core-values-divs:hover{
     cursor:ns-resize;
-    height:500px;
-    transition: 2ms ease-in;
+    height:350px;
+    transition: height 2s ease-out; /* slow end */
+    &>h2{
+        padding:10.35% 10.35% 0%;        
+    };
+    &>.core-value-descr{        
+        color:red;
+        text-align: justify;
+        padding:10px 50px;
+    }
 }
 
 .index_core-values_captions-item{
-    transform:rotate(0deg);
-    transform:scale(0);
-    transform:translate(0%, 0px);
-    opacity:1;
-    flex:1;
-    display: flex;
-    align-items:center;
+    
     font-family:neue, machina, Arial, Helvitica, sans-serif;
-    padding-left:10.35%;
-    padding-right:10.35%;
+    
     color:white;  
     
    
