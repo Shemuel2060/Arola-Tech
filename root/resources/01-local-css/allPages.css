@@ -84,3 +84,16 @@ section{
   cursor: pointer;
   
 }
+/* FOOTER SECTION....*/
+.footer-section-3d-logo-motions-links-pages-contacts_address{
+  color:white;
+}
+.footer-section-content-divs{
+  display:inline-block;
+  margin-right:50px;
+  border: solid red;
+  border-right: 1px;
+  border-left:1px;
+  height:200px;
+  width:300px;
+}
